@@ -38,4 +38,13 @@ public enum Loading<T: Equatable>: Equatable {
             return false
         }
     }
+    
+    public func from(result: Result<T, AnyError>) -> Self {
+        switch result {
+        case let .success(value):
+            return .loaded(value)
+        case let .failure(error):
+            return .error(error)
+        }
+    }
 }
