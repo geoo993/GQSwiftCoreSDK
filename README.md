@@ -17,7 +17,7 @@ Please follow the steps below to add GQSwiftCoreSDK with Swift Package Manager.
 ### Extention Properties
 The following are the different properties available as extension of Swift value types.
 
-#### 1. Safe Array subscript
+#### 1. Safe Array Subscript
 Sometimes when subscripting in an Array, you might feel uncertain that the index used is within the bounds of the array.
 This `safe:` subscript allow you to return an optional value if a given index is out of bounds of the array.
 
@@ -33,7 +33,7 @@ Sometimes you just want to know if an optional value is nil or not without unwra
 
 ```swift
     var value: Int? = nil
-    .....
+    ...
     
     if value.isNil {
         ...
@@ -61,7 +61,7 @@ Sometimes you want to quickly map a string to URL, this often occurs when you de
 
 ```swift
     var imageUrl: URL?
-    .....
+    ...
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         let urlString = try container.decode(String.self, forKey: .image)
@@ -106,10 +106,10 @@ Similarly, we can `isFalse` instead of `!` to make working with Bool much easier
     ...
 ```
 
-### New Object
+### New Objects
 The following are the some very useful objects that address some very common stumbling blocks when working with Swift and SwiftUI.
 
-#### 1. With closure
+#### 1. With Closure
 In our day-to-day tasks, we often have to instantiate or initialise objects with their values in multiple places and perhaps multiple times. This is very commone when working with UIViews.
 `With` allows you to combine the initialisation and injection of initial values of an object all at once.
 
@@ -163,7 +163,7 @@ It is very common that our app encounters many errors, the more errors at your d
 
 ```swift
 enum APIError: Error {
-    case responsefailed
+    case responseFailed
 }
  
 final class ProductRepository {
@@ -203,7 +203,7 @@ Most of the time, we make long running tasks such as server calls or loading res
 
 ```swift
 enum APIError: Error {
-    case responsefailed
+    case responseFailed
 }
  
 final class ProductRepository {
@@ -239,6 +239,6 @@ final class ViewModel: ObservableObject {
     
 ```
 
-## Conclusion
+## 🍿 Conclusion
 
 As Swift and SwiftUI evolves, there will be more and more properties that will emerge and turn out to be extremely usually as part of this toolkit, but for now I wish you happy coding. 🎉
