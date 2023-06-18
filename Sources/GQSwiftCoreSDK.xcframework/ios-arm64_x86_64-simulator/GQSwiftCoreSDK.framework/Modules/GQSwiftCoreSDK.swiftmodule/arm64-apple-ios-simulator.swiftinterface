@@ -1,0 +1,45 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GQSwiftCoreSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import GQSwiftCoreSDK
+import Swift
+import SwiftUI
+import _Concurrency
+import _StringProcessing
+public struct Unwrap<Value, Content> : SwiftUI.View where Content : SwiftUI.View {
+  public init(_ value: Value?, @SwiftUI.ViewBuilder content: @escaping (Value) -> Content)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s14GQSwiftCoreSDK6UnwrapV4bodyQrvp", 0) __<Value, Content>
+}
+public struct AnyError : Swift.Error, Swift.Equatable {
+  public init<E>(_ wrappedError: E) where E : Swift.Error
+  public static func == (lhs: GQSwiftCoreSDK.AnyError, rhs: GQSwiftCoreSDK.AnyError) -> Swift.Bool
+}
+public struct AnyLocalizedError : Foundation.LocalizedError, Swift.Hashable {
+  public init<E>(_ wrappedError: E) where E : Foundation.LocalizedError
+  public static func == (lhs: GQSwiftCoreSDK.AnyLocalizedError, rhs: GQSwiftCoreSDK.AnyLocalizedError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Loading<T> : Swift.Equatable where T : Swift.Equatable {
+  case idle
+  case error(GQSwiftCoreSDK.AnyError)
+  case loading(previous: T? = nil)
+  case loaded(T)
+  public var error: GQSwiftCoreSDK.AnyError? {
+    get
+  }
+  public var loaded: T? {
+    get
+  }
+  public var isLoading: Swift.Bool {
+    get
+  }
+  public static func == (lhs: GQSwiftCoreSDK.Loading<T>, rhs: GQSwiftCoreSDK.Loading<T>) -> Swift.Bool
+}

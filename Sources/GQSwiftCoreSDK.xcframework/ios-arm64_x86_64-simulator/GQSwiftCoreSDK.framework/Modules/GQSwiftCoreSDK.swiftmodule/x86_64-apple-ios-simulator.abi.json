@@ -1,0 +1,995 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "GQSwiftCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Unwrap",
+        "printedName": "Unwrap",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:content:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Unwrap",
+                "printedName": "GQSwiftCoreSDK.Unwrap<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14GQSwiftCoreSDK6UnwrapV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> τ_0_1",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14GQSwiftCoreSDK6UnwrapV_7contentACyxq_GxSg_q_xctcfc",
+            "mangledName": "$s14GQSwiftCoreSDK6UnwrapV_7contentACyxq_GxSg_q_xctcfc",
+            "moduleName": "GQSwiftCoreSDK",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : SwiftUI.View>",
+            "sugared_genericSig": "<Value, Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_1?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14GQSwiftCoreSDK6UnwrapV4bodyQrvp",
+            "mangledName": "$s14GQSwiftCoreSDK6UnwrapV4bodyQrvp",
+            "moduleName": "GQSwiftCoreSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14GQSwiftCoreSDK6UnwrapV4bodyQrvg",
+                "mangledName": "$s14GQSwiftCoreSDK6UnwrapV4bodyQrvg",
+                "moduleName": "GQSwiftCoreSDK",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : SwiftUI.View>",
+                "sugared_genericSig": "<Value, Content where Content : SwiftUI.View>",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14GQSwiftCoreSDK6UnwrapV",
+        "mangledName": "$s14GQSwiftCoreSDK6UnwrapV",
+        "moduleName": "GQSwiftCoreSDK",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_1 : SwiftUI.View>",
+        "sugared_genericSig": "<Value, Content where Content : SwiftUI.View>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_1?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GQSwiftCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyError",
+        "printedName": "AnyError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyError",
+                "printedName": "GQSwiftCoreSDK.AnyError",
+                "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14GQSwiftCoreSDK8AnyErrorVyACxcs0E0Rzlufc",
+            "mangledName": "$s14GQSwiftCoreSDK8AnyErrorVyACxcs0E0Rzlufc",
+            "moduleName": "GQSwiftCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Error>",
+            "sugared_genericSig": "<E where E : Swift.Error>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyError",
+                "printedName": "GQSwiftCoreSDK.AnyError",
+                "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyError",
+                "printedName": "GQSwiftCoreSDK.AnyError",
+                "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GQSwiftCoreSDK8AnyErrorV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14GQSwiftCoreSDK8AnyErrorV2eeoiySbAC_ACtFZ",
+            "moduleName": "GQSwiftCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14GQSwiftCoreSDK8AnyErrorV",
+        "mangledName": "$s14GQSwiftCoreSDK8AnyErrorV",
+        "moduleName": "GQSwiftCoreSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnyLocalizedError",
+        "printedName": "AnyLocalizedError",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyLocalizedError",
+                "printedName": "GQSwiftCoreSDK.AnyLocalizedError",
+                "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorVyACxc10Foundation0eF0Rzlufc",
+            "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorVyACxc10Foundation0eF0Rzlufc",
+            "moduleName": "GQSwiftCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Foundation.LocalizedError>",
+            "sugared_genericSig": "<E where E : Foundation.LocalizedError>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyLocalizedError",
+                "printedName": "GQSwiftCoreSDK.AnyLocalizedError",
+                "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnyLocalizedError",
+                "printedName": "GQSwiftCoreSDK.AnyLocalizedError",
+                "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorV2eeoiySbAC_ACtFZ",
+            "moduleName": "GQSwiftCoreSDK",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorV4hash4intoys6HasherVz_tF",
+            "moduleName": "GQSwiftCoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV9hashValueSivp",
+            "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorV9hashValueSivp",
+            "moduleName": "GQSwiftCoreSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV9hashValueSivg",
+                "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorV9hashValueSivg",
+                "moduleName": "GQSwiftCoreSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14GQSwiftCoreSDK17AnyLocalizedErrorV",
+        "mangledName": "$s14GQSwiftCoreSDK17AnyLocalizedErrorV",
+        "moduleName": "GQSwiftCoreSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GQSwiftCoreSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Loading",
+        "printedName": "Loading",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idle",
+            "printedName": "idle",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : Swift.Equatable> (GQSwiftCoreSDK.Loading<τ_0_0>.Type) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Loading",
+                    "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO4idleyACyxGAEmSQRzlF",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO4idleyACyxGAEmSQRzlF",
+            "moduleName": "GQSwiftCoreSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : Swift.Equatable> (GQSwiftCoreSDK.Loading<τ_0_0>.Type) -> (GQSwiftCoreSDK.AnyError) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(GQSwiftCoreSDK.AnyError) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyError",
+                        "printedName": "GQSwiftCoreSDK.AnyError",
+                        "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO5erroryACyxGAA8AnyErrorVcAEmSQRzlF",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO5erroryACyxGAA8AnyErrorVcAEmSQRzlF",
+            "moduleName": "GQSwiftCoreSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "loading",
+            "printedName": "loading",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : Swift.Equatable> (GQSwiftCoreSDK.Loading<τ_0_0>.Type) -> (τ_0_0?) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0?) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(previous: τ_0_0?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "τ_0_0?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "GenericTypeParam",
+                                "printedName": "τ_0_0"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO7loadingyACyxGxSg_tcAEmSQRzlF",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO7loadingyACyxGxSg_tcAEmSQRzlF",
+            "moduleName": "GQSwiftCoreSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "loaded",
+            "printedName": "loaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0 where τ_0_0 : Swift.Equatable> (GQSwiftCoreSDK.Loading<τ_0_0>.Type) -> (τ_0_0) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> GQSwiftCoreSDK.Loading<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Loading",
+                        "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:14GQSwiftCoreSDK7LoadingO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO6loadedyACyxGxcAEmSQRzlF",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO6loadedyACyxGxcAEmSQRzlF",
+            "moduleName": "GQSwiftCoreSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "GQSwiftCoreSDK.AnyError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyError",
+                    "printedName": "GQSwiftCoreSDK.AnyError",
+                    "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO5errorAA8AnyErrorVSgvp",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO5errorAA8AnyErrorVSgvp",
+            "moduleName": "GQSwiftCoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "GQSwiftCoreSDK.AnyError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyError",
+                        "printedName": "GQSwiftCoreSDK.AnyError",
+                        "usr": "s:14GQSwiftCoreSDK8AnyErrorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14GQSwiftCoreSDK7LoadingO5errorAA8AnyErrorVSgvg",
+                "mangledName": "$s14GQSwiftCoreSDK7LoadingO5errorAA8AnyErrorVSgvg",
+                "moduleName": "GQSwiftCoreSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loaded",
+            "printedName": "loaded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO6loadedxSgvp",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO6loadedxSgvp",
+            "moduleName": "GQSwiftCoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14GQSwiftCoreSDK7LoadingO6loadedxSgvg",
+                "mangledName": "$s14GQSwiftCoreSDK7LoadingO6loadedxSgvg",
+                "moduleName": "GQSwiftCoreSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLoading",
+            "printedName": "isLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO02isD0Sbvp",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO02isD0Sbvp",
+            "moduleName": "GQSwiftCoreSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14GQSwiftCoreSDK7LoadingO02isD0Sbvg",
+                "mangledName": "$s14GQSwiftCoreSDK7LoadingO02isD0Sbvg",
+                "moduleName": "GQSwiftCoreSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Loading",
+                "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14GQSwiftCoreSDK7LoadingO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Loading",
+                "printedName": "GQSwiftCoreSDK.Loading<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14GQSwiftCoreSDK7LoadingO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GQSwiftCoreSDK7LoadingO2eeoiySbACyxG_AEtFZ",
+            "mangledName": "$s14GQSwiftCoreSDK7LoadingO2eeoiySbACyxG_AEtFZ",
+            "moduleName": "GQSwiftCoreSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Equatable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14GQSwiftCoreSDK7LoadingO",
+        "mangledName": "$s14GQSwiftCoreSDK7LoadingO",
+        "moduleName": "GQSwiftCoreSDK",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/georgequentin\/Dev\/GQSwiftCore\/Framework\/GQSwiftCoreSDK\/GQSwiftCoreSDK\/Source\/Loading.swift",
+      "kind": "BooleanLiteral",
+      "offset": 491,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/georgequentin\/Dev\/GQSwiftCore\/Framework\/GQSwiftCoreSDK\/GQSwiftCoreSDK\/Source\/Loading.swift",
+      "kind": "BooleanLiteral",
+      "offset": 514,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/georgequentin\/Dev\/GQSwiftCore\/Framework\/GQSwiftCoreSDK\/GQSwiftCoreSDK\/Source\/Loading.swift",
+      "kind": "BooleanLiteral",
+      "offset": 673,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/georgequentin\/Dev\/GQSwiftCore\/Framework\/GQSwiftCoreSDK\/GQSwiftCoreSDK\/Source\/Loading.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1034,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

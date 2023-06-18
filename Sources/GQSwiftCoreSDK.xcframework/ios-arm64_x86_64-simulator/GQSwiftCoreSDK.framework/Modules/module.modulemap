@@ -1,0 +1,11 @@
+framework module GQSwiftCoreSDK {
+  umbrella header "GQSwiftCoreSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module GQSwiftCoreSDK.Swift {
+  header "GQSwiftCoreSDK-Swift.h"
+  requires objc
+}
